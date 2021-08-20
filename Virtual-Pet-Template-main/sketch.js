@@ -38,7 +38,7 @@ function setup() {
   //Uncomment the correct code to call FeedDog() using mousePressed
   //feed.Pressed(feedDog);
   //feed.mousePress(feedDog);
-  feed.mousePressed(feedDog());
+  feed.mousePressed(feedDog);
   //feed.mousePressed(addfoods);
 
   addFood=createButton("Add Food");
